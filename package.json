@@ -1,10 +1,9 @@
 {
-  "name": "tech-blog",
+  "name": "Tech-Blog",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
@@ -14,14 +13,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leo-ayala/Tech-Blog/issues"
-  },
+  "bugs": {},
   "homepage": "https://github.com/leo-ayala/Tech-Blog#readme",
   "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.0.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "node": "^14.8.0",
-    "sequelize": "^6.3.5",
-    "sessions": "0.0.2-7"
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.6",
+    "mysql2": "^2.1.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.3.4"
   }
 }
