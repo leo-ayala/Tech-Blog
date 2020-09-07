@@ -12,9 +12,14 @@
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    color: green;
     font-weight: bold;
     transition: color .1s;
+    align-self: center;
+  }
+  header .main {
+    font-size: x-large;
+    border-right: grey;
   }
   
   a:hover {
@@ -22,7 +27,7 @@
   }
   
   button {
-    background-color: #225ca3;
+    background-color: green;
     border: 0;
     padding: 1%;
     color: white;
@@ -38,13 +43,22 @@
   
   .post-list {
     margin: 0;
-    padding: 0;
+    padding: 10px;
+  }
+
+  li {
+    padding-bottom: 15px;
+  }
+  .meta {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
   }
   
   textarea, input {
-    padding: .5%;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    padding: 1%;
+    border-radius: 7px;
+    border: 2px solid #ccc;
   }
   
   textarea:focus, input:focus {
@@ -75,7 +89,7 @@
   }
   
   header {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 3px solid #ccc;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,7 +111,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: green;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -110,11 +124,11 @@
   }
   
   .delete-post-btn {
-    background-color: #d41414;
+    background-color: orange;
   }
   
   .delete-post-btn:hover {
-    background-color: #ff643d;
+    background-color: red;
   }
   
   .post {
@@ -122,24 +136,15 @@
     line-height: 150%;
   }
   
-  .post .title span {
-    font-style: italic;
-    font-size: 90%;
-    color: #7d7d7d;
+  .post span {
+    font-style: normal;
+    font-size: 100%;
+    color: lightseagreen;
   }
   
   .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
-  }
-  
-  .upvote-btn {
-    background-color: #197d0f;
-    transition: background-color .1s;
-  }
-  
-  .upvote-btn:hover {
-    background-color: #1f9c13;
   }
   
   .comment-form {

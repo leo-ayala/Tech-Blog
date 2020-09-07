@@ -1,20 +1,14 @@
 <article>
-  <a href="/dashboard"> &larr; Back to dashboard</a>
+  <a href="/dashboard"> &larr; Back to your posts</a>
   <h2>
-    Edit Post
+    Edit your Post!
   </h2>
   <form class="edit-post-form">
     <div>
-      <input name="post-title" type="text" value="{{post.title}}" />
-      <span>({{post.post_url}})</span>
+      <input name="post-title" type="text" value="{{post.title}}" />  
     </div>
-    <div>
-      {{post.vote_count}} {{post.vote_count}} by you on {{post.created_at}}
-      |
-      <a href="/post/{{post.id}}">{{post.comment.length}} {{ post.comments.length}}</a>
-    </div>
-    <button type="submit">Save post</button>
-    <button type="button" class="delete-post-btn">Delete post</button>
+    <button type="submit">Save edited post</button>
+    <button type="button" class="delete-post-btn">Delete this post</button>
   </form>
 </article>
 
