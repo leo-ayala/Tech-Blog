@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/leo-ayala/Tech-Blog.git"
   },
+  "engines": {
+    "node": "^12.18.3",
+    "npm": "^6.14.6"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
