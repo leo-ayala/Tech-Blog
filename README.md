@@ -30,9 +30,9 @@ npm run start
 
 👤 **Leo Ayala**
 
-* Website: https://leo-ayala.github.io/Portfolio/
-* Github: [@leo-ayala](https://github.com/leo-ayala)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/leo-ayala-36b333l58\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/leo-ayala-36b333l58\/)
+* Portfolio: https://leo-ayala.github.io/Portfolio/
+* Github: [leo-ayala](https://github.com/leo-ayala)
+* LinkedIn: [Leo Ayala](https://www.linkedin.com/in/leo-ayala-36b333l58/)
 
 ##  License
 
